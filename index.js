@@ -1,11 +1,17 @@
-// Log out "Button clicked!" when the user clicks the "SAVE INPUT" button
+let myLeads = ['www.google.com', 'www.youtube.com', 'www.facebook.com'];
+const inputEl = document.getElementById("input-el");
+const inputBtn = document.getElementById("input-btn");
+const ulEl = document.getElementById("ul-el");
 
-// function print(){
-//   document.getElementById("print-click").innerHTML += "Button clicked!"+"<br>";
-// }
-// This needs onclick="print()" in button tag
-// Write a system that does the same without 'onclick="print()" in button tag'
-let inputBtn = document.getElementById("input-btn");
-inputBtn.addEventListener("click", function()){
-    document.getElementById("print-click").innerHTML += "Button clicked!"+"<br>";
+inputBtn.addEventListener("click", function(){
+  myLeads.push(inputEl.value);
+  console.log(myLeads);  
+});
+
+for (let i = 0; i < myLeads.length; i++) {
+  ulEl.innerHTML += "<li>" + myLeads[i];
+//alternative way
+  // const li = document.createElement("li");
+  // li.textContent = myLeads[i];
+  // ulEl.append(li);
 }
