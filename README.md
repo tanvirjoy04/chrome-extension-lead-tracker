@@ -5,6 +5,14 @@ First hands-on-built interactive Chrome extension of my life. 🎉, 👏, 🎊, 
 
 Congratulations to me.
 
+## Features
+- Type any link or text and hit "SAVE INPUT" button to save. 
+- Saves are listed and visible.
+- Hit "SAVE TAB" to directly save current website link. (saves you from copying link and pasting it)
+- All Saves are listed and visible.
+- Useful collecting leads but can be used in many other ways.
+- "DELETE ALL" button to delete all saves.
+
 ## Safety Feature
 **"DELETE ALL" button needs 'double click' so that you don't accidentally delete saves.**
 
