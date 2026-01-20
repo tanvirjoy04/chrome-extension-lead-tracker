@@ -5,6 +5,9 @@ First hands-on-built interactive Chrome extension of my life. 🎉, 👏, 🎊, 
 
 Congratulations to me.
 
+## Safety Feature
+**"DELETE ALL" button needs 'double click' so that you don't accidentally delete saves.**
+
 ## How to use this extension 
 1. Open chrome
 2. On top-right corner, click on 3 dots. A drop-down list of options appears.
